@@ -22,8 +22,6 @@ public class ReviewService implements CommandLineRunner {
                 .builder()
                 .content("Amazing Ride!!!")
                 .rating(4.9)
-                .createdAt(new Date())
-                .updatedAt(new Date())
                 .build();
         reviewRepository.save(review);
     }
